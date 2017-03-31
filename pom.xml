@@ -38,6 +38,10 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!-- end::actuator[] -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+        </dependency>
         <!-- tag::tests[] -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
