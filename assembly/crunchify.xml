@@ -28,7 +28,7 @@
 		</fileSet>-->
 		<!-- Jar files in root directory -->
 		<fileSet>
-			<directory>/target/</directory>
+			<directory>${project.basedir}/target/</directory>
 			<includes>
 				<include>*.jar</include>
 		        </includes>
