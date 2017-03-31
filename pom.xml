@@ -76,8 +76,9 @@
                     <descriptors>
                         <descriptor>assembly/crunchify.xml</descriptor>
                     </descriptors>
+					<tarLongFileMode>posix</tarLongFileMode>
                 </configuration>
-				<tarLongFileMode>posix</tarLongFileMode>
+				
             </plugin>
         </plugins>
     </build>
